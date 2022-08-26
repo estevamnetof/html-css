@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        h1, .formulario {
+            width: 400px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
     <h1>Exemplo de Formulário</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form class="formulario" action="cadastro.php" method="get" autocomplete="on">
 
         <p>
             <label for="iano">Em que ano você nasceu? </label>
@@ -19,10 +25,6 @@
             <output id="iidade">0</output>
         </p>
 
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
     </form>
 
     <script>
