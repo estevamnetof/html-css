@@ -12,7 +12,10 @@
 </head>
 <body onresize="mudouTamanho()">
     <header>
-        <h1>Flamengo</h1>
+        <div class="logo-h1">
+            <img src="imagens/flamengo.png" alt="Flamengo">
+            <h1>Flamengo</h1>
+        </div>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
         <menu id="itens">
             <ul>
@@ -32,7 +35,41 @@
             <p>Nesta segunda, o CRF comunicou que o atleta Vitinho foi transferido em definitivo para o Ettifaq Foltball Club, da Arábia Saudita.</p>
             <p>Na parte da tarde, a delegação rubro-negra embarca para a Argentina e realiza o último treino nesta terça-feira (30) antes do duelo contra o Vélez.</p>
         </article>
+        <div class="youtube-video">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/o0D7gfKo8b8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="creditos">Créditos FlaTv</p>
+        </div>
+        <article id="jogos">
+            <h1>Próximo Jogo</h1>
+            <p>Conmenbol libertadores 2022</p>
+            <h2>Vélez Sarsfield X Flamengo</h2>
+        </article>
     </main>
+    <footer>
+        <section id="informacoes">
+            <div class="info1">
+                <h1>Sede Gávea</h1>
+                <p>Av. Borges de Medeiros, 997</p>
+                <p>Lagoa - Rio de Janeiro/RJ - Brasil</p>
+                <p>CEP: 22430-041</p>
+                <p>Tel: (21)2159-0100</p>
+            </div>
+            <div class="info2">
+                <h1>CT George Helal</h1>
+                <p>Estrada dos Bandeirantes</p>
+                <p>25.997</p>
+                <p>Vargem Grande - Rio de Janeiro/RJ - Brasil</p>
+                <p>CEP: 22785-275</p>
+            </div>
+        </section>  
+        <hr class="divisao">
+        <section class="contato">
+            <h1 id="empresa">PROGtrevo</h1>
+            <p>&copy; PROGtrevo todos direitos reservados</p>
+            <p>Feito por Estevam Neto</p>
+        </section>
+        
+    </footer>
 
     <script src="script.js"></script>
 </body>

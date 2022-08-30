@@ -10,12 +10,38 @@
 */
 
 @media screen and (min-width: 768px) {
+    * {
+        font-family: 'Rajdhani', sans-serif;
+    }
+
+    .logo-h1 {
+        display: flex;
+        justify-content: center;
+        height: 100px;
+    }
+
+    header img {
+        width: 80px;
+    }
+
+    header h1{
+        padding: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        text-shadow: 1px 1px 1px solid;
+    }
+
     span#burguer {
         display: none;
     }
 
     menu {
         display: block;
+    }
+
+    menu ul {
+        padding: 10px;
     }
 
     menu li {
@@ -26,5 +52,105 @@
 
     main {
         width: 768px;
+    }
+
+    article h2 {
+        font-size: 2.75rem;
+        padding: 30px;
+        text-indent: 0px;
+    }
+
+    article p {
+        font-size: 1.5rem;
+    }
+
+    .youtube-video {
+        text-align: center;
+    }
+
+    iframe {
+        background-color: #202020;
+        border: none;
+        height: 450px;
+        width: 700px;
+    }
+
+    .creditos {
+        font-size: .9rem;
+        color: #202020;
+    }
+
+    article#jogos{
+        font-family: 'Rajdhani', sans-serif;
+        padding-top: 100px;
+        text-align: center;
+        color: #222222;
+    }
+
+    #jogos h1 {
+        font-size: 1.2rem;
+    }
+
+    #jogos h2 {
+        font-size: 1.8rem;
+        padding-top: 10px;
+    }
+
+    #jogos p {
+        text-align: center;
+        font-size: 15px;
+        background-color: #D2232A;
+        margin: auto;
+        width: 220px;
+        border-radius: 3px;
+        color: white;
+        text-indent: 0px;
+        margin-top: 8px;
+        padding: 5px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    #informacoes {
+        font-family: 'Rajdhani', sans-serif;
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #D2232A;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .info1, .info2 {
+        color: #F8F9FA;
+        padding: 60px 50px;
+        background-color: #D2232A;
+    }
+
+    .info1>h1, .info2>h1 {
+        font-family: 'Rajdhani', sans-serif;
+        padding-bottom: 10px;
+    }
+    
+    .info1 p, .info2 p {
+        font-family: 'Rajdhani', sans-serif;
+        color: #F8F9FA;
+    }
+
+    .divisao {
+        height: 2px;
+        background-color: white;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px;
+        background-color: #202020;
+        color: white;
+    }
+
+    .contato h1, .contato p {
+        font-family: 'Poppins', sans-serif;
     }
 }

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -18,10 +19,20 @@ header {
     background-color: #D2232A;
 }
 
-header > h1 {
+header h1 {
     padding: 10px;
     text-align: center;
     color: white;
+}
+
+.logo-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-h1 img {
+    width: 80px;
 }
 
 span#burguer {
@@ -31,10 +42,11 @@ span#burguer {
     padding: 10px;
     cursor: pointer;
     transition: .5s all;
+    background-color: #000000;
 }
 
 span#burguer:hover {
-    color: black;
+    color: #D2232A;
     transition: .5s all;
 }
 
@@ -71,9 +83,9 @@ main {
 }
 
 article > h2 {
-    padding-bottom: 20px;
     color: #333333;
-    text-indent: 20px;
+    padding-bottom: 20px;
+    padding-top: 50px;
 }
 
 article > p {
@@ -81,4 +93,102 @@ article > p {
     margin-bottom: 20px;
     text-indent: 20px;
     color: #333333;
+}
+
+.youtube-video {
+    text-align: center;
+}
+
+iframe {
+    background-color: #202020;
+    border: none;
+    height: 350px;
+    width: 500px;
+    margin-top: 100px;
+}
+
+.creditos {
+    font-size: .9rem;
+    color: #202020;
+}
+
+article#jogos{
+    font-family: 'Rajdhani', sans-serif;
+    padding: 100px 0px;
+    text-align: center;
+    color: #222222;
+}
+
+#jogos h1 {
+    font-size: 1.2rem;
+}
+
+#jogos h2 {
+    font-size: 1.8rem;
+    padding-top: 10px;
+}
+
+#jogos p {
+    text-align: center;
+    font-size: 12px;
+    background-color: #D2232A;
+    margin: auto;
+    width: 220px;
+    border-radius: 3px;
+    color: white;
+    text-indent: 0px;
+    margin-top: 8px;
+    padding: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+/* Footer */
+
+#informacoes {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #D2232A;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info1, .info2 {
+    color: #F8F9FA;
+    padding: 30px;
+    background-color: #D2232A;
+}
+
+.info1>h1, .info2>h1 {
+    font-family: 'Rajdhani', sans-serif;
+    padding-bottom: 10px;
+}
+
+.info1 p, .info2 p {
+    font-family: 'Rajdhani', sans-serif;
+    color: #F8F9FA;
+}
+
+/* Divisão */
+
+.divisao {
+    height: 2px;
+    background-color: white;
+}
+
+/* Contato */
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    background-color: #202020;
+    color: white;
+}
+
+.contato h1, .contato p {
+    font-family: 'Poppins', sans-serif;
 }
